@@ -2,4 +2,14 @@
     <string name="app_name">TreinaWeb - Primeiro Projeto</string>
     <string name="botaoCarregar">Carregar</string>
     <string name="imagemDescricao">Imagem Carregada da Web</string>
+    <string name="vazio"></string>
+    <string name="labelId">ID:</string>
+    <string name="botaoBuscar">Buscar</string>
+    <string name="labelRua">Rua:</string>
+    <string name="labelCidade">Cidade:</string>
+    <string name="labelEstado">Estado:</string>
+    <string name="labelTelefone">Telefone:</string>
+    <string name="labelIdade">Idade:</string>
+    <string name="labelNome">Nome:</string>
+    <string name="titulo4">Dados:</string>
 </resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelId"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewId"
+        android:layout_alignBottom="@+id/textViewId"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textViewId"
+        android:ems="9"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonBuscar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editTextId"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/editTextId"
+        android:text="@string/botaoBuscar" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewId"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonBuscar"
+        android:layout_below="@+id/buttonBuscar"
+        android:id="@+id/viewDados"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/textViewTitulo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/titulo4"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewTitulo4"
+            android:layout_marginTop="15dp"
+            android:text="@string/labelNome" />
+
+        <TextView
+            android:id="@+id/textViewIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewNome"
+            android:layout_marginTop="15dp"
+            android:text="@string/labelIdade" />
+
+        <TextView
+            android:id="@+id/textViewTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewIdade"
+            android:layout_marginTop="15dp"
+            android:text="@string/labelTelefone" />
+
+        <TextView
+            android:id="@+id/textViewRua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewTelefone"
+            android:layout_marginTop="15dp"
+            android:text="@string/labelRua" />
+
+        <TextView
+            android:id="@+id/textViewCidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewRua"
+            android:layout_marginTop="15dp"
+            android:text="@string/labelCidade" />
+
+        <TextView
+            android:id="@+id/textViewEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewCidade"
+            android:layout_marginTop="15dp"
+            android:text="@string/labelEstado" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
