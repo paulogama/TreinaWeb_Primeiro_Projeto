@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TreinaWeb - Primeiro Projeto</string>
+    <string name="botaoCarregar">Carregar</string>
+    <string name="imagemDescricao">Imagem Carregada da Web</string>
+</resources>
