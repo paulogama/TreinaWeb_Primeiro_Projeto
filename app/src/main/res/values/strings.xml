@@ -12,4 +12,11 @@
     <string name="labelIdade">Idade:</string>
     <string name="labelNome">Nome:</string>
     <string name="titulo4">Dados:</string>
+    <string name="botaoDisconnect">Desconectar</string>
+    <string name="botaoSendMessage">Enviar Mensagem</string>
+    <string name="labelMensagem">Mensagem:</string>
+    <string name="labelPorta">Porta:</string>
+    <string name="labelIp">IP:</string>
+    <string name="botaoConectar">Conectar</string>
+    <string name="botaoSendMsg">Send Message</string>
 </resources>

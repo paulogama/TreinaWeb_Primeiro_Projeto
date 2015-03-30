@@ -9,7 +9,7 @@
 
         <activity
             android:label="@string/app_name"
-            android:name="ziramba.treinaweb_primeiroprojeto.Tela4">
+            android:name="ziramba.treinaweb_primeiroprojeto.Tela5">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
